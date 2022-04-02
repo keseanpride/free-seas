@@ -22,103 +22,104 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49399
+49589
 Successfully changed project path to: /Users/seanpride/Desktop/free-seas/Free Seas
 /Users/seanpride/Desktop/free-seas/Free Seas
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/seanpride/Desktop/free-seas/Free Seas/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-24 10:22:19.802 Unity[970:15163] Color LCD preferred device: Intel(R) HD Graphics 515 (low power)
-2022-03-24 10:22:19.803 Unity[970:15163] Metal devices available: 1
-2022-03-24 10:22:19.803 Unity[970:15163] 0: Intel(R) HD Graphics 515 (low power)
-2022-03-24 10:22:19.803 Unity[970:15163] Using device Intel(R) HD Graphics 515 (low power)
+2022-04-02 13:51:43.336 Unity[1932:69661] Color LCD preferred device: Intel(R) HD Graphics 515 (low power)
+2022-04-02 13:51:43.336 Unity[1932:69661] Metal devices available: 1
+2022-04-02 13:51:43.336 Unity[1932:69661] 0: Intel(R) HD Graphics 515 (low power)
+2022-04-02 13:51:43.336 Unity[1932:69661] Using device Intel(R) HD Graphics 515 (low power)
 Initializing Metal device caps: Intel(R) HD Graphics 515
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56970
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001045 seconds.
+Registered in 0.006036 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  1.547 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1446ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (392ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1186ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (404ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (420ms)
+			SetupTypeCache (362ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003196 seconds.
+Registered in 0.009469 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/seanpride/Desktop/free-seas/Free Seas/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.839 seconds
+- Completed reload, in  2.258 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2840ms)
-		BeginReloadAssembly (502ms)
+	ReloadAssembly (2260ms)
+		BeginReloadAssembly (295ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2164ms)
-			LoadAssemblies (238ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1713ms)
+			LoadAssemblies (237ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (746ms)
+			SetupTypeCache (579ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (720ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (594ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (512ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (417ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000246 seconds.
+Validating Project structure ... 0.001332 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000382 seconds.
+Upgrading shader files ...0.001896 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +129,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
 Initializing Unity extensions:
-2022-03-24 10:22:25.431 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007b5110 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-24 10:22:25.442 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007b2d10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-02 13:51:50.076 Unity[1932:69661] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000257c620 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-02 13:51:50.082 Unity[1932:69661] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000256d420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.6 MB.
-System memory in use after: 173.8 MB.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 173.9 MB.
 
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1977.
-Total: 7.252998 ms (FindLiveObjects: 0.263312 ms CreateObjectMapping: 0.185578 ms MarkObjects: 5.576065 ms  DeleteObjects: 1.226404 ms)
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 5.658793 ms (FindLiveObjects: 0.193344 ms CreateObjectMapping: 0.081475 ms MarkObjects: 4.552082 ms  DeleteObjects: 0.830398 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,320 +156,251 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006283 seconds 
-  Import took 0.010971 seconds .
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/3D Models/boats-1.fbx
+  artifactKey: Guid(25998f4a75894884080efa2d66eb1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/3D Models/boats-1.fbx using Guid(25998f4a75894884080efa2d66eb1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc61473a74e241f511553a361f015aa4') in 6.892914 seconds 
+  Import took 7.098648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.913513 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(53ade11e9b55544da83e91365fb1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(53ade11e9b55544da83e91365fb1299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6e75f69943a9d428bfcf495c766b10') in 0.004527 seconds 
-  Import took 0.010680 seconds .
+  Time since last request: 0.000633 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1
+  artifactKey: Guid(89fd2066991c84548906d4a5ae27f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1 using Guid(89fd2066991c84548906d4a5ae27f99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34871fe26445d3ff05405bbd5eb3ae2a') in 0.001458 seconds 
+  Import took 0.005305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.722037 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(52b9ed796fb544eae897ffc3ddd40acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(52b9ed796fb544eae897ffc3ddd40acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7ff68abc760fead530c4fb9fa8dfa') in 0.003970 seconds 
-  Import took 0.008638 seconds .
+  Time since last request: 0.006662 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/3D Models
+  artifactKey: Guid(72d696e420376b842ad45144952d03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/3D Models using Guid(72d696e420376b842ad45144952d03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3ff4beb965d62c81dea600a3cdd658') in 0.001615 seconds 
+  Import took 0.005764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.251421 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d929edf131b9b49eba12365df0a1b4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d929edf131b9b49eba12365df0a1b4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b613fbb8278104ab4a752ab95214c05') in 0.003050 seconds 
-  Import took 0.008050 seconds .
+  Time since last request: 0.000451 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 1.prefab
+  artifactKey: Guid(c4a236b6d260fbd4f84544017d776832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 1.prefab using Guid(c4a236b6d260fbd4f84544017d776832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c15aaa5bb5615599561bc88876c3102') in 0.537738 seconds 
+  Import took 0.545763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.870885 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(abb3217a1bf3745cc8d048e4b926cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(abb3217a1bf3745cc8d048e4b926cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f6679e4f8d36a470c2c8cf13c868ac') in 0.003291 seconds 
-  Import took 0.008441 seconds .
+  Time since last request: 0.369252 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 2.prefab
+  artifactKey: Guid(aa392bd7df230064282edddc1bf15315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 2.prefab using Guid(aa392bd7df230064282edddc1bf15315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d64a28df38b85e4b86f96603f98c6a9') in 0.026893 seconds 
+  Import took 0.032569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.586101 seconds.
-  path: Assets/Scenes/Ocean.unity
-  artifactKey: Guid(cb9f1e3a8296c4ea6a1d574653f87d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Ocean.unity using Guid(cb9f1e3a8296c4ea6a1d574653f87d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03159eab64d533524cecd66e62526458') in 0.022954 seconds 
-  Import took 0.027484 seconds .
+  Time since last request: 0.790421 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 3.prefab
+  artifactKey: Guid(8fc09650d441f5b40b869c0209b04a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 3.prefab using Guid(8fc09650d441f5b40b869c0209b04a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6932a514bd76c972beb74ddde0c2c5ae') in 0.073981 seconds 
+  Import took 0.081112 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.122169 seconds.
+  Time since last request: 1.434058 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 4.prefab
+  artifactKey: Guid(2e87be65a8b174049a24715b923f5f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 4.prefab using Guid(2e87be65a8b174049a24715b923f5f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070dfcf2d08813989597e105213c9179') in 0.080112 seconds 
+  Import took 0.102276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.528024 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 5.prefab
+  artifactKey: Guid(b0fddbbf53aa5464892ee56b98a4491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 5.prefab using Guid(b0fddbbf53aa5464892ee56b98a4491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b31c561e73de2db85f5aef59073658a') in 0.038567 seconds 
+  Import took 0.045115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845051 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 6.prefab
+  artifactKey: Guid(3eaa9e243fdebc248ae8e426fcc6cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 6.prefab using Guid(3eaa9e243fdebc248ae8e426fcc6cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0a4c141061e73169b20b270c64b277') in 0.040215 seconds 
+  Import took 0.047180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.514508 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 7.prefab
+  artifactKey: Guid(af623d4784eb5d34a8433489fa51d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 7.prefab using Guid(af623d4784eb5d34a8433489fa51d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d2ff31e30f437e4920fe8bc676e57c') in 0.044122 seconds 
+  Import took 0.049594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.847509 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 8.prefab
+  artifactKey: Guid(e7793607a8c8c7c4a97edea6b255ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 8.prefab using Guid(e7793607a8c8c7c4a97edea6b255ebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450c9900029ae7d339964d2855e699bf') in 0.054493 seconds 
+  Import took 0.063968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788675 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 10.prefab
+  artifactKey: Guid(f4c9482f078ae184b92183b55e1b7d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 10.prefab using Guid(f4c9482f078ae184b92183b55e1b7d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3483d879ea920ff0961604837a6a8b0') in 0.076215 seconds 
+  Import took 0.083978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.810505 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 9.prefab
+  artifactKey: Guid(1b13bbb4b02aaa142bec665ac45703d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 9.prefab using Guid(1b13bbb4b02aaa142bec665ac45703d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df0d7b5aedffd6071c46eae6f5c3318') in 0.072226 seconds 
+  Import took 0.078752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.054918 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 12.prefab
+  artifactKey: Guid(4febb4fade57837418b617e95e849d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs/Boat 12.prefab using Guid(4febb4fade57837418b617e95e849d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a896f97cbab405e077c8443106ca88') in 0.064635 seconds 
+  Import took 0.073089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.156642 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Textures/boat.psd
+  artifactKey: Guid(dd2100936952008408996e2be17e8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Textures/boat.psd using Guid(dd2100936952008408996e2be17e8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741e89a35c5aeb22a5dbd76138190ae3') in 4.337864 seconds 
+  Import took 4.346649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Materials
+  artifactKey: Guid(f49156813f00fac40b8d29652238d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Materials using Guid(f49156813f00fac40b8d29652238d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29daac35539a882b858ce4f1e0ea1173') in 0.001829 seconds 
+  Import took 0.005713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.162019 seconds.
+  path: Assets/Low Poly Single Boat/Prefabs
+  artifactKey: Guid(1833d4ebd703a974e91df536711f35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Prefabs using Guid(1833d4ebd703a974e91df536711f35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2418980ede1a3a0ed3afaf9684312cc3') in 0.002617 seconds 
+  Import took 0.008128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.847520 seconds.
+  path: Assets/Low Poly Single Boat/Prefabs/single boat.prefab
+  artifactKey: Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Prefabs/single boat.prefab using Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da97b0cace0c640358f9ae0b3da8c538') in 0.121024 seconds 
+  Import took 0.125905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.094152 seconds.
+  path: Assets/Prefabs/Boat 13.prefab
+  artifactKey: Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boat 13.prefab using Guid(e9ccc27bb6f9f944e8bda508e30456a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9bd9716a43b465122bbab61043d395') in 0.038119 seconds 
+  Import took 0.043522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.602152 seconds.
+  path: Assets/Low Poly Single Boat
+  artifactKey: Guid(0f563ab66e61e4fd6a3c311c2f59b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat using Guid(0f563ab66e61e4fd6a3c311c2f59b825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f049f8eeb620c7bf4350ab8d9e267ea') in 0.003104 seconds 
+  Import took 0.008856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.457545 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs
+  artifactKey: Guid(a1837ef14e74f024982430e99488fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Prefabs using Guid(a1837ef14e74f024982430e99488fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55440483488467ea92b836275838d8ac') in 0.001566 seconds 
+  Import took 0.005983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.341979 seconds.
+  path: Assets/Low Poly Single Boat/Textures/boat.psd
+  artifactKey: Guid(7eee04d8e6f76ce48a62845365391a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Textures/boat.psd using Guid(7eee04d8e6f76ce48a62845365391a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a2b806203497caede7d85d587a489e') in 0.035792 seconds 
+  Import took 0.040996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.961288 seconds.
+  path: Assets/Low Poly Single Boat/Materials
+  artifactKey: Guid(a9a6db584322110499c3527f340fe00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Materials using Guid(a9a6db584322110499c3527f340fe00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c9ed8c04d84909e70801b32ffd6389') in 0.003148 seconds 
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.456308 seconds.
+  path: Assets/Low Poly Single Boat/Scenes/Demo Scene.unity
+  artifactKey: Guid(2c827931ffae8f84c9c86e885498719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Scenes/Demo Scene.unity using Guid(2c827931ffae8f84c9c86e885498719a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacca28a339576a9d7ced9966846b928') in 0.003880 seconds 
+  Import took 0.009136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.743045 seconds.
   path: Assets/Scenes/Sea.unity
   artifactKey: Guid(5b64a7fd1a834413d83c0339cf09db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sea.unity using Guid(5b64a7fd1a834413d83c0339cf09db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25376432c03409701089fea4619cfe15') in 0.006483 seconds 
-  Import took 0.011691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.195719 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.003192 seconds 
-  Import took 0.008125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2193.885641 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6cf0bb5b26e7eff671ae2cb522d617') in 3.264304 seconds 
-  Import took 3.274715 seconds .
+Start importing Assets/Scenes/Sea.unity using Guid(5b64a7fd1a834413d83c0339cf09db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7300d30c9ee2d46c3b53c936f2e941') in 0.002399 seconds 
+  Import took 0.006734 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002891 seconds.
+Registered in 0.002102 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/seanpride/Desktop/free-seas/Free Seas/Library/PackageCache/com.unity.collab-proxy@1.15.15/Lib/Editor/PlasticSCM/unityplastic.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-24 11:01:04.061 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000079d1f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-02 13:57:39.783 Unity[1932:69661] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002541420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 Mono: successfully reloaded assembly
-- Completed reload, in  1.839 seconds
+- Completed reload, in  2.078 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1841ms)
-		BeginReloadAssembly (187ms)
+	ReloadAssembly (2079ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (1544ms)
-			LoadAssemblies (117ms)
+		EndReloadAssembly (1703ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (552ms)
+			SetupTypeCache (588ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (570ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (352ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.7 MB.
-System memory in use after: 178.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 5.243204 ms (FindLiveObjects: 0.383437 ms CreateObjectMapping: 0.143720 ms MarkObjects: 4.683924 ms  DeleteObjects: 0.029252 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 68.224832 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32ee6fd825abfa970183cceddb80203') in 0.020823 seconds 
-  Import took 0.025766 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002898 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-24 11:02:11.752 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007a6990 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.569 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2570ms)
-		BeginReloadAssembly (246ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (108ms)
-		EndReloadAssembly (2134ms)
-			LoadAssemblies (197ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (839ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (713ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (242ms)
-				ProcessInitializeOnLoadAttributes (436ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 178.9 MB.
-System memory in use after: 179.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1983.
-Total: 5.162906 ms (FindLiveObjects: 0.211627 ms CreateObjectMapping: 0.086071 ms MarkObjects: 4.832815 ms  DeleteObjects: 0.030969 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002860 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-24 11:10:05.604 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000007a6c30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.395 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2395ms)
-		BeginReloadAssembly (210ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (2052ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (692ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (136ms)
-			SetupLoadedEditorAssemblies (746ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (296ms)
-				ProcessInitializeOnLoadAttributes (413ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.0 MB.
-System memory in use after: 179.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1985.
-Total: 5.274283 ms (FindLiveObjects: 0.233955 ms CreateObjectMapping: 0.075335 ms MarkObjects: 4.931761 ms  DeleteObjects: 0.031493 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 483.895160 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14d5e85efa62a7509594a673738a812') in 0.015252 seconds 
-  Import took 0.020101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.895445 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(5f071fbde92414cbe83858ae388e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03a27708e1267c35b915e2c8ebb581d') in 0.032201 seconds 
-  Import took 0.047664 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005147 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-24 11:12:15.589 Unity[970:15163] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000784850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  1.936 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1937ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1635ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (624ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (580ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (643ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (191ms)
-				ProcessInitializeOnLoadAttributes (360ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.2 MB.
-System memory in use after: 179.3 MB.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.1 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
-Total: 6.751609 ms (FindLiveObjects: 0.252378 ms CreateObjectMapping: 0.136761 ms MarkObjects: 6.324065 ms  DeleteObjects: 0.036921 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 5.075194 ms (FindLiveObjects: 0.306808 ms CreateObjectMapping: 0.139349 ms MarkObjects: 4.587301 ms  DeleteObjects: 0.038603 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -480,3 +412,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.879281 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(c878b51e130a64bc1a9760fdd92c851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(c878b51e130a64bc1a9760fdd92c851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3784ed02d4e84c5d4b2cd1eac86fbe6') in 0.007723 seconds 
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.858246 seconds.
+  path: Assets/Low Poly Sea Vehicle Pack - 1.1/Textures/Other Boats.psd
+  artifactKey: Guid(dd2100936952008408996e2be17e8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Sea Vehicle Pack - 1.1/Textures/Other Boats.psd using Guid(dd2100936952008408996e2be17e8413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4607e506d6a39576153ad9f9869e2bf') in 0.064946 seconds 
+  Import took 0.069246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.862866 seconds.
+  path: Assets/Low Poly Single Boat/Textures/Player Boat.psd
+  artifactKey: Guid(7eee04d8e6f76ce48a62845365391a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Single Boat/Textures/Player Boat.psd using Guid(7eee04d8e6f76ce48a62845365391a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aaabaa99a77185331b9430391a168d7') in 0.010216 seconds 
+  Import took 0.014935 seconds .
+
